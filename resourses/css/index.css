@@ -1,0 +1,80 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+header{
+  background-image:url("images/pattern.png");
+  height: 100%;
+}
+header li{
+  position: relative;
+  left: 38%;
+  list-style: none;
+  display: inline-block;
+  margin-right: 4px;
+  margin-top: 15px;
+}
+a.topbut:link, a.topbut:visited{
+  font-family: Helvetica;
+  font-size: 24px;
+  text-decoration: none;
+  color: #044135;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 3px;
+
+}
+a.topbut:hover, a.topbut:active{
+  color:white;
+  text-decoration: underline;
+  background: linear-gradient(331deg, rgba(110,208,219,1) 30%, rgba(59,140,141,1) 85%);
+  border-radius: 5px;
+}
+
+h1{
+  display: block;
+  font-family: Helvetica;
+  color: black;
+  font-size: 600%;
+  text-align: center;
+  margin-top: 0;
+}
+sup{
+  font-size: 35px;
+}
+h3.description{
+  text-align: center;
+  background: linear-gradient(57deg, rgba(59,140,141,1) 0%, rgba(110,208,219,1) 100%);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 32px;
+  margin-left: 38px;
+  margin-right: 38px;
+}
+h3#brushes.description{
+  margin-top: 40px;
+}
+img.float-left{
+margin-left: 38px;
+border-radius: 10px;
+width: 250px;
+height: 250px;
+}
+div.info{
+  font-family: Helvetica;
+  width: 300px;
+  height: 220px;
+  text-align: justify;
+  float: right;
+  margin-right: 38px;
+}
+p#madeby{
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  background-color: maroon;
+
+}
